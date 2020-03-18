@@ -14,14 +14,14 @@ int main()
          << "A / B = " << a / b << '\n';
 
 
-      double max;
+      int max;
         if (a > b) max = a;
         if (b > a) max = b;
         if (b == a) cout << "A = B";
             else cout << "MAX = " << max;
 
 
-    double min;
+    int min;
         if (a > b) min = b;
         if (b > a) min = a;
         if (b == a) cout << "A = B";
